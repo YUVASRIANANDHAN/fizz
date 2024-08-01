@@ -1,14 +1,18 @@
-for(i=1;i<=100;i++){
-    if(i%15===0){
-      console.log("fizzbuzz")
+let i = 0;
+
+do{
+    if(i%15 === 0){
+        console.log("FizzBuzz");
     }
     else if(i%3===0){
-      console.log("fizz")
+        console.log("Fizz");
     }
     else if(i%5===0){
-      console.log("buzz")
+        console.log("Buzz");
     }
     else{
-      console.log(i)
+        console.log(i);
     }
-  };
+    i++
+}
+while(i<100);
